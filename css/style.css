@@ -417,4 +417,40 @@ template {
   text-transform: uppercase;
   color: #fff;
   cursor: pointer;
+}
+
+.about__wrapper {
+  display: flex;
+  padding: 95px 95px 95px 0;
+  justify-content: space-between;
+}
+.about__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 445px;
+}
+.about__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+.about__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.about__link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ED4C5C;
+}
+.about__image {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
