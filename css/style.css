@@ -599,4 +599,53 @@ template {
   border: none;
   border-radius: 15px;
   max-width: 445px;
+}
+
+.contact {
+  padding: 159px 0 123px 0;
+}
+.contact__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__description {
+  max-width: 445px;
+}
+.contact__title {
+  Font-size: 36px;
+  font-weight: 500;
+  Line-height: 42px;
+}
+.contact__text {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: normal;
+}
+.contact__form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.contact__input {
+  color: rgba(19, 39, 67, 0.5);
+  font-size: 16px;
+  padding: 20px 33px;
+  margin-bottom: 24px;
+  border-radius: 6px;
+  border-color: rgba(19, 39, 67, 0.5);
+}
+.contact__button {
+  padding: 17px 40px;
+  border-color: #fff;
+  border-radius: 6px;
+  background-color: #D52047;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  max-width: 160px;
 }/*# sourceMappingURL=style.css.map */
