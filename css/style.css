@@ -565,4 +565,38 @@ template {
   font-size: 12px;
   text-align: center;
   padding: 5px 30px;
+}
+
+.app {
+  background-color: #ED4C5C;
+  color: #fff;
+}
+.app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 95px 95px 95px 0;
+}
+.app__description {
+  padding-right: 125px;
+}
+.app__title {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+.app__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.app__icon {
+  margin-top: 40px;
+  padding-right: 20px;
+}
+.app__image {
+  border: none;
+  border-radius: 15px;
+  max-width: 445px;
 }/*# sourceMappingURL=style.css.map */
