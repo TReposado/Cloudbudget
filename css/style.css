@@ -519,4 +519,50 @@ template {
   line-height: 18px;
   text-align: center;
   color: #ed4c5c;
+}
+
+.feautures {
+  padding: 65px 0 105px 0;
+}
+.feautures__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  padding-bottom: 55px;
+}
+.feautures__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.feautures__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 255px;
+  align-items: center;
+  justify-content: space-between;
+}
+.feautures__number {
+  ont-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 120px;
+  color: rgba(16, 16, 16, 0.08);
+}
+.feautures__icon {
+  max-width: 80px;
+  max-height: 80px;
+  margin-top: -60px;
+}
+.feautures__subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+.feautures__text {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 30px;
 }/*# sourceMappingURL=style.css.map */
